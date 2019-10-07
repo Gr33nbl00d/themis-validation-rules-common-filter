@@ -4,7 +4,7 @@
   "keywords": [
     "validation"
   ],
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Themis Validation Engine Common Rule Filters",
   "author": "Gr33nbl00d",
   "main": "dist/lib/src/index.js",
@@ -25,8 +25,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "themis-validation-core": "0.9.0",
-    "themis-validation-rules-common": "0.9.0",
+    "themis-validation-core": "0.9.1",
+    "themis-validation-rules-common": "0.9.1",
     "alsatian": "^3.0.1",
     "barrelsby": "^2.1.1",
     "rimraf": "^3.0.0",
