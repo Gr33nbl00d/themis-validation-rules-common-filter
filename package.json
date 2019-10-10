@@ -4,11 +4,10 @@
   "keywords": [
     "validation"
   ],
-  "version": "0.9.3",
+  "version": "0.9.6",
   "description": "Themis Validation Engine Common Rule Filters",
   "author": "Gr33nbl00d",
-  "main": "dist/lib/src/index.js",
-  "module": "dist/lib/src/index.js",
+  "main": "dist/cjs/src/index.js",
   "typings": "dist/types/src/index.d.ts",
   "bugs": {
     "url": "https://github.com/Gr33nbl00d/themis-validation-rules-common-filter/issues"
@@ -19,14 +18,14 @@
   },
   "scripts": {
     "clean": "rimraf dist",
-    "build": "tsc",
+    "build": "tsc --module commonjs",
     "test": "ts-node ./test/runner.ts",
     "generate-barrels": "barrelsby --delete -d ./src"
   },
   "dependencies": {},
   "devDependencies": {
-    "themis-validation-core": "0.9.1",
-    "themis-validation-rules-common": "0.9.3",
+    "themis-validation-core": "0.9.5",
+    "themis-validation-rules-common": "0.9.5",
     "alsatian": "^3.0.1",
     "barrelsby": "^2.1.1",
     "rimraf": "^3.0.0",
